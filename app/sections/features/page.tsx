@@ -1,4 +1,4 @@
-import { Header } from "@/components/layout/Header";
+import { Badge } from "@/components/common/Badge";
 import { FeaturesADemo } from "@/components/sections/features/FeaturesA";
 import { FeaturesBDemo } from "@/components/sections/features/FeaturesB";
 import { FeaturesCDemo } from "@/components/sections/features/FeaturesC";
@@ -25,14 +25,11 @@ export default function FeaturesSectionsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
+    <div className="pb-24">
 
       <section className="py-12 md:py-16 px-4 md:px-8 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto">
-          <span className="inline-block px-3 py-1 mb-4 rounded-full text-xs font-semibold bg-accent-500/10 text-accent-500">
-            10 Variants
-          </span>
+          <Badge variant="accent" className="mb-4">10 Variants</Badge>
           <h1 className="text-[32px] md:text-[48px] leading-[38.4px] md:leading-[57.6px] font-semibold text-neutral-900 tracking-tight mb-3">
             Features Sections
           </h1>

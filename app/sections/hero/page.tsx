@@ -1,4 +1,3 @@
-import { Header } from "@/components/layout/Header";
 import { HeroADemo } from "@/components/sections/hero/HeroA";
 import { HeroBDemo } from "@/components/sections/hero/HeroB";
 import { HeroCDemo } from "@/components/sections/hero/HeroC";
@@ -25,10 +24,7 @@ export default function HeroSectionsPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
-      <Header />
-
-      {/* Page Header */}
+    <div className="pb-24">
       <section className="py-12 md:py-16 px-4 md:px-8 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto">
           <span className="inline-block px-3 py-1 mb-4 rounded-full text-xs font-semibold bg-accent-500/10 text-accent-500">
