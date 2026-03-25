@@ -5,11 +5,6 @@ import { PricingBDemo } from "@/components/sections/pricing/PricingB";
 import { PricingCDemo } from "@/components/sections/pricing/PricingC";
 import { PricingDDemo } from "@/components/sections/pricing/PricingD";
 import { PricingEDemo } from "@/components/sections/pricing/PricingE";
-import { PricingFDemo } from "@/components/sections/pricing/PricingF";
-import { PricingGDemo } from "@/components/sections/pricing/PricingG";
-import { PricingHDemo } from "@/components/sections/pricing/PricingH";
-import { PricingIDemo } from "@/components/sections/pricing/PricingI";
-import { PricingJDemo } from "@/components/sections/pricing/PricingJ";
 
 export default function PricingSectionsPage() {
   const variants = [
@@ -18,18 +13,13 @@ export default function PricingSectionsPage() {
     { id: "pricing-c", label: "Pricing C", subtitle: "Pricing layout variant C", component: <PricingCDemo /> },
     { id: "pricing-d", label: "Pricing D", subtitle: "Pricing layout variant D", component: <PricingDDemo /> },
     { id: "pricing-e", label: "Pricing E", subtitle: "Pricing layout variant E", component: <PricingEDemo /> },
-    { id: "pricing-f", label: "Pricing F", subtitle: "Pricing layout variant F", component: <PricingFDemo /> },
-    { id: "pricing-g", label: "Pricing G", subtitle: "Pricing layout variant G", component: <PricingGDemo /> },
-    { id: "pricing-h", label: "Pricing H", subtitle: "Pricing layout variant H", component: <PricingHDemo /> },
-    { id: "pricing-i", label: "Pricing I", subtitle: "Pricing layout variant I", component: <PricingIDemo /> },
-    { id: "pricing-j", label: "Pricing J", subtitle: "Pricing layout variant J", component: <PricingJDemo /> },
   ];
 
   return (
     <div className="pb-24">
       <section className="py-12 md:py-16 px-4 md:px-8 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto">
-          <Badge variant="accent" className="mb-4">10 Variants</Badge>
+          <Badge variant="accent" className="mb-4">5 Variants</Badge>
           <h1 className="text-[32px] md:text-[48px] leading-[38.4px] md:leading-[57.6px] font-semibold text-neutral-900 tracking-tight mb-3">
             Pricing Sections
           </h1>

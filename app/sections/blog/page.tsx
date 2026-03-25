@@ -5,11 +5,6 @@ import { BlogBDemo } from "@/components/sections/blog/BlogB";
 import { BlogCDemo } from "@/components/sections/blog/BlogC";
 import { BlogDDemo } from "@/components/sections/blog/BlogD";
 import { BlogEDemo } from "@/components/sections/blog/BlogE";
-import { BlogFDemo } from "@/components/sections/blog/BlogF";
-import { BlogGDemo } from "@/components/sections/blog/BlogG";
-import { BlogHDemo } from "@/components/sections/blog/BlogH";
-import { BlogIDemo } from "@/components/sections/blog/BlogI";
-import { BlogJDemo } from "@/components/sections/blog/BlogJ";
 
 export default function BlogSectionsPage() {
   const variants = [
@@ -18,18 +13,13 @@ export default function BlogSectionsPage() {
     { id: "blog-c", label: "Blog C", subtitle: "Blog layout variant C", component: <BlogCDemo /> },
     { id: "blog-d", label: "Blog D", subtitle: "Blog layout variant D", component: <BlogDDemo /> },
     { id: "blog-e", label: "Blog E", subtitle: "Blog layout variant E", component: <BlogEDemo /> },
-    { id: "blog-f", label: "Blog F", subtitle: "Blog layout variant F", component: <BlogFDemo /> },
-    { id: "blog-g", label: "Blog G", subtitle: "Blog layout variant G", component: <BlogGDemo /> },
-    { id: "blog-h", label: "Blog H", subtitle: "Blog layout variant H", component: <BlogHDemo /> },
-    { id: "blog-i", label: "Blog I", subtitle: "Blog layout variant I", component: <BlogIDemo /> },
-    { id: "blog-j", label: "Blog J", subtitle: "Blog layout variant J", component: <BlogJDemo /> },
   ];
 
   return (
     <div className="pb-24">
       <section className="py-12 md:py-16 px-4 md:px-8 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto">
-          <Badge variant="accent" className="mb-4">10 Variants</Badge>
+          <Badge variant="accent" className="mb-4">5 Variants</Badge>
           <h1 className="text-[32px] md:text-[48px] leading-[38.4px] md:leading-[57.6px] font-semibold text-neutral-900 tracking-tight mb-3">
             Blog Sections
           </h1>

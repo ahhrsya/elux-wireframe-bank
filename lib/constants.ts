@@ -95,7 +95,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Hero",
     description: "Opening sections with value proposition",
     icon: "Layout",
-    variants: 10,
+    variants: 5,
     href: "/sections/hero",
   },
   {
@@ -103,7 +103,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Features",
     description: "Core features with icons and descriptions",
     icon: "Layers",
-    variants: 10,
+    variants: 5,
     href: "/sections/features",
   },
   {
@@ -111,7 +111,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Testimonials",
     description: "Customer reviews and social proof",
     icon: "MessageSquareQuote",
-    variants: 10,
+    variants: 5,
     href: "/sections/testimonials",
   },
   {
