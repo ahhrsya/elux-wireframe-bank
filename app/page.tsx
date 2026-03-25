@@ -17,7 +17,7 @@ export default function Home() {
       <section className="py-16 md:py-24 px-4 md:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <span className="inline-block px-3 py-1 mb-6 rounded-full text-xs font-semibold bg-accent-500/10 text-accent-500">
-            55+ Section Variants
+            110+ Section Variants
           </span>
           <h1 className="text-h1 text-neutral-900 font-semibold tracking-tight mb-4 text-[32px] md:text-[48px] leading-[38.4px] md:leading-[57.6px]">
             Layout Bank
@@ -52,7 +52,7 @@ export default function Home() {
               11 Section Types
             </h2>
             <p className="text-body text-neutral-600">
-              Each section type has 5 layout variations, ready to mix & match.
+              Each section type has 10 layout variations, ready to mix & match.
             </p>
           </div>
 
@@ -94,7 +94,7 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { label: "Section Types", value: "11" },
-              { label: "Variants", value: "55+" },
+              { label: "Variants", value: "110+" },
               { label: "Responsive", value: "100%" },
               { label: "Zero Custom CSS", value: "✓" },
             ].map((stat) => (

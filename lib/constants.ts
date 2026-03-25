@@ -119,7 +119,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Pricing",
     description: "Pricing tiers and comparison",
     icon: "CreditCard",
-    variants: 5,
+    variants: 10,
     href: "/sections/pricing",
   },
   {
@@ -127,7 +127,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "CTA",
     description: "Call-to-action sections",
     icon: "MousePointerClick",
-    variants: 5,
+    variants: 10,
     href: "/sections/cta",
   },
   {
@@ -135,7 +135,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "FAQ",
     description: "Frequently asked questions",
     icon: "HelpCircle",
-    variants: 5,
+    variants: 10,
     href: "/sections/faq",
   },
   {
@@ -143,7 +143,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Newsletter",
     description: "Email signup forms",
     icon: "Mail",
-    variants: 5,
+    variants: 10,
     href: "/sections/newsletter",
   },
   {
@@ -151,7 +151,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Team",
     description: "Team members and about section",
     icon: "Users",
-    variants: 5,
+    variants: 10,
     href: "/sections/team",
   },
   {
@@ -159,7 +159,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Blog",
     description: "Blog and content feed sections",
     icon: "FileText",
-    variants: 5,
+    variants: 10,
     href: "/sections/blog",
   },
   {
@@ -167,7 +167,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Statistics",
     description: "Key metrics and achievements",
     icon: "BarChart3",
-    variants: 5,
+    variants: 10,
     href: "/sections/stats",
   },
   {
@@ -175,7 +175,7 @@ export const SECTION_TYPES: SectionType[] = [
     name: "Footer",
     description: "Page footer with links and info",
     icon: "PanelBottom",
-    variants: 5,
+    variants: 10,
     href: "/sections/footer",
   },
 ];
