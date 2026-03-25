@@ -5,6 +5,11 @@ import { NewsletterBDemo } from "@/components/sections/newsletter/NewsletterB";
 import { NewsletterCDemo } from "@/components/sections/newsletter/NewsletterC";
 import { NewsletterDDemo } from "@/components/sections/newsletter/NewsletterD";
 import { NewsletterEDemo } from "@/components/sections/newsletter/NewsletterE";
+import { NewsletterFDemo } from "@/components/sections/newsletter/NewsletterF";
+import { NewsletterGDemo } from "@/components/sections/newsletter/NewsletterG";
+import { NewsletterHDemo } from "@/components/sections/newsletter/NewsletterH";
+import { NewsletterIDemo } from "@/components/sections/newsletter/NewsletterI";
+import { NewsletterJDemo } from "@/components/sections/newsletter/NewsletterJ";
 
 export default function NewsletterSectionsPage() {
   const variants = [
@@ -13,13 +18,18 @@ export default function NewsletterSectionsPage() {
     { id: "newsletter-c", label: "Newsletter C", subtitle: "Newsletter layout variant C", component: <NewsletterCDemo /> },
     { id: "newsletter-d", label: "Newsletter D", subtitle: "Newsletter layout variant D", component: <NewsletterDDemo /> },
     { id: "newsletter-e", label: "Newsletter E", subtitle: "Newsletter layout variant E", component: <NewsletterEDemo /> },
+    { id: "newsletter-f", label: "Newsletter F", subtitle: "Newsletter layout variant F", component: <NewsletterFDemo /> },
+    { id: "newsletter-g", label: "Newsletter G", subtitle: "Newsletter layout variant G", component: <NewsletterGDemo /> },
+    { id: "newsletter-h", label: "Newsletter H", subtitle: "Newsletter layout variant H", component: <NewsletterHDemo /> },
+    { id: "newsletter-i", label: "Newsletter I", subtitle: "Newsletter layout variant I", component: <NewsletterIDemo /> },
+    { id: "newsletter-j", label: "Newsletter J", subtitle: "Newsletter layout variant J", component: <NewsletterJDemo /> },
   ];
 
   return (
     <div className="pb-24">
       <section className="py-12 md:py-16 px-4 md:px-8 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto">
-          <Badge variant="accent" className="mb-4">5 Variants</Badge>
+          <Badge variant="accent" className="mb-4">10 Variants</Badge>
           <h1 className="text-[32px] md:text-[48px] leading-[38.4px] md:leading-[57.6px] font-semibold text-neutral-900 tracking-tight mb-3">
             Newsletter Sections
           </h1>

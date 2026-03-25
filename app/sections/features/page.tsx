@@ -4,6 +4,11 @@ import { FeaturesBDemo } from "@/components/sections/features/FeaturesB";
 import { FeaturesCDemo } from "@/components/sections/features/FeaturesC";
 import { FeaturesDDemo } from "@/components/sections/features/FeaturesD";
 import { FeaturesEDemo } from "@/components/sections/features/FeaturesE";
+import { FeaturesFDemo } from "@/components/sections/features/FeaturesF";
+import { FeaturesGDemo } from "@/components/sections/features/FeaturesG";
+import { FeaturesHDemo } from "@/components/sections/features/FeaturesH";
+import { FeaturesIDemo } from "@/components/sections/features/FeaturesI";
+import { FeaturesJDemo } from "@/components/sections/features/FeaturesJ";
 
 export default function FeaturesSectionsPage() {
   const variants = [
@@ -12,6 +17,11 @@ export default function FeaturesSectionsPage() {
     { id: "features-c", label: "Features C", subtitle: "Numbered Steps Single Column", component: <FeaturesCDemo /> },
     { id: "features-d", label: "Features D", subtitle: "4-Column Masonry Grid", component: <FeaturesDDemo /> },
     { id: "features-e", label: "Features E", subtitle: "Horizontal Scrollable Carousel", component: <FeaturesEDemo /> },
+    { id: "features-f", label: "Features F", subtitle: "Zig Zag Feature Images", component: <FeaturesFDemo /> },
+    { id: "features-g", label: "Features G", subtitle: "Tabs with Interactive Images", component: <FeaturesGDemo /> },
+    { id: "features-h", label: "Features H", subtitle: "High-fi Bento Grid", component: <FeaturesHDemo /> },
+    { id: "features-i", label: "Features I", subtitle: "Marquee Logo / Features", component: <FeaturesIDemo /> },
+    { id: "features-j", label: "Features J", subtitle: "Large Image with Hotspots", component: <FeaturesJDemo /> },
   ];
 
   return (
@@ -19,7 +29,7 @@ export default function FeaturesSectionsPage() {
 
       <section className="py-12 md:py-16 px-4 md:px-8 border-b border-neutral-200">
         <div className="max-w-7xl mx-auto">
-          <Badge variant="accent" className="mb-4">5 Variants</Badge>
+          <Badge variant="accent" className="mb-4">10 Variants</Badge>
           <h1 className="text-[32px] md:text-[48px] leading-[38.4px] md:leading-[57.6px] font-semibold text-neutral-900 tracking-tight mb-3">
             Features Sections
           </h1>
